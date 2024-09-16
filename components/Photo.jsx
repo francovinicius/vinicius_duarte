@@ -16,7 +16,7 @@ const Photo = () => {
                     animate={
                         { opacity: 1, transition: { delay: 1.4, duration: 0.4, ease: "easeInOut" } }
                     }                
-                className='w-[298px] h-[298px] xl:w-[498px] xl:h-[498px] mix-blend-lighten'>
+                className='w-[298px] h-[298px] xl:w-[498px] xl:h-[498px] mix-blend-exclusion'>
                     <img src='/assets/Foto.svg' priority quality={100} fill alt='' className='object-contain' />
                 </motion.div>
             </motion.div>
