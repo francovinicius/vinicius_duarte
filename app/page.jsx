@@ -1,12 +1,10 @@
-import Header from "@/components/Header";
-import Image from "next/image";
+import {Button} from "@/components/ui/button"
+import React from 'react'
 
-export default function Home() {
+const Home = () => {
   return (
-
-    <main>
-      homepage
-    </main>
-  );
+    <div>Home</div>
+  )
 }
 
+export default Home
