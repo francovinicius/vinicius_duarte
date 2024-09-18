@@ -34,30 +34,30 @@ const about = {
 const experience = {
   icon: '/assets/resume/badge.svg',
   title: 'Experiências',
-  description: 'resrterwe qewdw eddu dgsadgsadgsadgasdgasd jas saj hsakjdhasjkd hsadh kjhd ',
+  description: 'Minhas Experiências Profissionais',
   items: [
     {
-      company: "tech tech",
-      position: 'dev',
-      duaration: '2022 - Present'
+      company: "Ajr Puxadas",
+      position: 'Analista de sistemas',
+      duaration: 'Mai/2022 à Presente'
 
     },
     {
-      company: "tech tech 2",
-      position: 'dev',
-      duaration: '2022 - Present'
+      company: "Freelancer",
+      position: 'Desenvolvedor Web/Mobile',
+      duaration: 'Mai/2022 à Presente'
 
     },
     {
-      company: "tech tech 3",
-      position: 'dev',
-      duaration: '2022 - Present'
+      company: "Youtility",
+      position: 'Supervisor de operações',
+      duaration: 'Mar/2019 à Mar/2020'
 
     },
     {
-      company: "tech tech 4",
-      position: 'dev',
-      duaration: '2022 - Present'
+      company: "UGB - Centro Universitário Geraldo di Biase",
+      position: 'Estágio de Redes e Manutenção',
+      duaration: 'Jul/2014 - Jan/2017'
 
     },
   ]
@@ -66,7 +66,7 @@ const experience = {
 const education = {
   icon: 'assets/resume/cap.svg',
   title: 'Formação',
-  description: 'resrterwe qewdw eddu dgsadgsadgsadgasdgasd jas saj hsakjdhasjkd hsadh kjhd ',
+  description: 'Minhas Experiências Profissionais',
   items: [
     {
       instituition: "Centro Universitário Geraldo di Biase",
@@ -138,7 +138,33 @@ const Resume = () => {
 
           <div className='min-h-[70vh] w-full'>
             <TabsContent value='experience' className='w-full'>
-              test
+              <div className='flex flex-col gap-[30px] text-center xl:text-left'>
+                <h3>{experience.title}</h3>
+                <p className="max-w-[600px] text-white/60 mx-auto xl:mx-0">
+                  {experience.description}
+                </p>
+                <ScrollArea className='h-[400px]'>
+                  <ul className='grid grid-cols-1 lg:grid-cols-2 gap-[30px]'>
+                    {experience.items.map((item, index) => {
+                      return <li key={index} className='bg-[#232329] h-[184px] py-6 px-10 rounded-xl flex flex-col justify-center items-center lg:items-center lg:items-start gap-1'>
+                        <h3>{item.position}</h3>
+                        <span></span>
+                        <p>{item.company}</p>
+                        <span>{item.duaration}</span>
+                      </li>
+                    })}
+                  </ul>
+                </ScrollArea>
+              </div>
+            </TabsContent>
+            <TabsContent value='skills' className='w-full'>
+              y
+            </TabsContent>
+            <TabsContent value='education' className='w-full'>
+              aboutt
+            </TabsContent>
+            <TabsContent value='about' className='w-full'>
+              about
             </TabsContent>
           </div>
         </Tabs>
