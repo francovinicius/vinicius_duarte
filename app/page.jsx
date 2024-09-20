@@ -23,7 +23,7 @@ const Home = () => {
 
             <div className="flex flex-col xl:flex-row items-center gap-8">
               <Button className='uppercase flex items-center gap-2' size='lg' variant='outline'>
-                <span>Download CV</span>
+                <a href="https://drive.google.com/file/d/1GdEznA4AbFAq0GCD51aMvSxZVikX5rSl/view?usp=sharing" target="blank"><span>Download CV</span></a>
                 <MdOutlineCloudDownload className='text-xl' />
               </Button>
 
