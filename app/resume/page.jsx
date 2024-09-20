@@ -53,7 +53,7 @@ const education = {
 
     },
     {
-      instituition: "Centro Universitário Geraldo di Biase",
+      instituition: "Universidade Geraldo di Biase",
       degree: 'Graduado em Matemática',
       duaration: 'Jan/13 - Dez/16'
 
@@ -134,7 +134,7 @@ const Resume = () => {
                 <ScrollArea className='h-[400px]'>
                   <ul className='grid grid-cols-1 lg:grid-cols-2 gap-[30px]'>
                     {education.items.map((item, index) => {
-                      return <li key={index} className='bg-[#232329] h-[170px] xl:w-[450px] py-6 px-10 rounded-xl flex flex-col justify-center items-center lg:items-start gap-1'>
+                      return <li key={index} className='bg-[#232329] h-[200px] xl:w-[450px] py-6 px-10 rounded-xl flex flex-col justify-center items-center lg:items-start gap-1'>
                         <span className='text-accent'>{item.duaration}</span>
                         <h3 className='text-xl max-w[260px] min-h-[50px]'>{item.degree}</h3>
                         <div className='flex items-center gap-3'>
