@@ -112,11 +112,12 @@ const Resume = () => {
                 <ScrollArea className='h-[400px]'>
                   <ul className='grid grid-cols-1 lg:grid-cols-2 gap-[30px]'>
                     {experience.items.map((item, index) => {
-                      return <li key={index} className='bg-[#232329] h-[184px] py-6 px-10 rounded-xl flex flex-col justify-center items-center lg:items-start gap-1'>
-                        <h3 className='mb-3'>{item.position}</h3>
-                        <span>{item.skills}</span>
-                        <p>{item.company}</p>
-                        <span>{item.duaration}</span>
+                      return <li key={index} className='bg-[#232329] h-[170px] xl:w-[400px] py-6 px-10 rounded-xl flex flex-col justify-center items-center lg:items-start gap-1'>
+                        <span className='text-accent'>{item.duaration}</span>
+                        <h3 className='text-xl max-w[260px] min-h-[50px]'>{item.position}</h3>
+                        <div className='flex items-center gap-3'>
+                          <span className='bg-accent w-[6px] h-[6px] rounded-full'></span>
+                          <p>{item.company}</p></div>
                       </li>
                     })}
                   </ul>
@@ -133,10 +134,13 @@ const Resume = () => {
                 <ScrollArea className='h-[400px]'>
                   <ul className='grid grid-cols-1 lg:grid-cols-2 gap-[30px]'>
                     {education.items.map((item, index) => {
-                      return <li key={index} className='bg-[#232329] h-[184px] py-6 px-10 rounded-xl flex flex-col justify-center items-center lg:items-start gap-1'>
-                        <h3 className='mb-3'>{item.degree}</h3>
-                        <span>{item.instituition}</span>
-                        <span>{item.duaration}</span>
+                      return <li key={index} className='bg-[#232329] h-[170px] xl:w-[450px] py-6 px-10 rounded-xl flex flex-col justify-center items-center lg:items-start gap-1'>
+                        <span className='text-accent'>{item.duaration}</span>
+                        <h3 className='text-xl max-w[260px] min-h-[50px]'>{item.degree}</h3>
+                        <div className='flex items-center gap-3'>
+                          <span className='bg-accent w-[6px] h-[6px] rounded-full'></span>
+                          <p>{item.instituition}</p>
+                        </div>
                       </li>
                     })}
                   </ul>
