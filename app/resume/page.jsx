@@ -1,7 +1,5 @@
 "use client";
 
-import { FaHtml, FaCss3, FaJS, FaReact, FaFimga, FaNodeJs } from 'react-icons/fa'
-import { SiTailwindcss, SiNextdotjs } from 'react-icons/si';
 import React from 'react'
 
 const experience = {
@@ -61,28 +59,7 @@ const education = {
   ]
 }
 
-const skills = {
-  icon: 'assets/resume/cap.svg',
-  title: 'Skills',
-  description: 'resrterwe qewdw eddu dgsadgsadgsadgasdgasd jas saj hsakjdhasjkd hsadh kjhd ',
-  items: [
-    {
-      subtitle: "Linguagens de Programação:",
-      languages: 'JavaScript, Dart, PHP, Kotlin, SQL',
-    },
-    {
-      subtitle: "Linguagens de Programação:",
-      languages: 'JavaScript, Dart, PHP, Kotlin, SQL',
-    },
-    {
-      subtitle: "Linguagens de Programação:",
-      languages: 'JavaScript, Dart, PHP, Kotlin, SQL',
-    },
-  ]
-}
-
 import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs'
-import { Tooltip, TooltipContent, TooltipProvider, TooltipTrigger } from '@/components/ui/tooltip';
 import { ScrollArea } from '@/components/ui/scroll-area';
 import { motion } from 'framer-motion';
 
@@ -139,7 +116,7 @@ const Resume = () => {
                         <h3 className='text-xl max-w[260px] min-h-[50px]'>{item.degree}</h3>
                         <div className='flex items-center gap-3'>
                           <span className='bg-accent w-[6px] h-[6px] rounded-full'></span>
-                          <p>{item.instituition}</p>
+                          <p className='text-white/60'>{item.instituition}</p>
                         </div>
                       </li>
                     })}
