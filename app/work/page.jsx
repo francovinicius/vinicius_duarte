@@ -20,7 +20,7 @@ const projects = [
     stack: [
       { name: 'Reactjs' }, { name: 'NextJs' }, { name: 'Tailwind Css' }, 
     ],
-    image: '/assets/work/portfolio.png',
+    image: '/assets/work/2.png',
     live: 'https://viniciusduarte.vercel.app/',
     github: 'https://github.com/francovinicius/vinicius_duarte',
 
@@ -33,7 +33,7 @@ const projects = [
     stack: [
       {name: 'PHP' }, { name: 'Javascript' }, { name: 'SQL' }, { name: 'Bootstrap' }
     ],
-    image: '/assets/work/advocacia.png',
+    image: '/assets/work/1.png',
     live: 'https://github.com/francovinicius/sistema-de-gest-o-advocacia-full',
     github: 'https://github.com/francovinicius/sistema-de-gest-o-advocacia-full',
 
@@ -71,7 +71,7 @@ const projects = [
     stack: [
       { name: 'ReactJs ' }, { name: 'Consumo de API' }
     ],
-    image: '/assets/work/CEP.png',
+    image: '/assets/work/3.png',
     live: 'https://buscador-de-cep-sigma.vercel.app/',
     github: 'https://github.com/francovinicius/buscador-de-cep',
 
@@ -83,7 +83,7 @@ const projects = [
     stack: [
       { name: 'Html5,' }, { name: 'Css3' }, { name: 'Javascript' }, { name: 'Consumo de API' }
     ],
-    image: '/assets/work/num-secreto.png',
+    image: '/assets/work/4.png',
     live: 'https://numero-secreto-kohl.vercel.app/',
     github: 'https://github.com/francovinicius/numero-secreto',
 
@@ -96,7 +96,7 @@ const projects = [
     stack: [
       { name: 'Reactjs' }
     ],
-    image: '/assets/work/pag-contatos.png',
+    image: '/assets/work/5.png',
     live: 'https://eduardowitte.vercel.app/',
     github: 'https://eduardowitte.vercel.app/',
 
@@ -109,7 +109,7 @@ const projects = [
     stack: [
       { name: 'Html5' }, { name: 'Css3' }, { name: 'Javascript' }
     ],
-    image: '/assets/work/cadastro-de-funcionarios.png',
+    image: '/assets/work/6.png',
     live: 'https://cadastro-de-funcionarios-livid.vercel.app/',
     github: 'https://github.com/francovinicius/cadastro-de-funcionarios',
 
@@ -122,7 +122,7 @@ const projects = [
     stack: [
       { name: 'Dart' }, { name: 'Flutter' }
     ],
-    image: '/assets/work/spotify.png',
+    image: '/assets/work/11.png',
     live: 'https://github.com/francovinicius/Spotify-Clone',
     github: 'https://github.com/francovinicius/Spotify-Clone',
 
@@ -148,7 +148,7 @@ const projects = [
     stack: [
       { name: 'ReactJs' }, { name: 'Css Modules' }
     ],
-    image: '/assets/work/spa-blog.png',
+    image: '/assets/work/7.png',
     live: 'https://viniciusduarte-blog.vercel.app/',
     github: 'https://github.com/francovinicius/blog-react',
 
@@ -161,7 +161,7 @@ const projects = [
     stack: [
       { name: 'ReactJs' }
     ],
-    image: '/assets/work/vnc.png',
+    image: '/assets/work/8.png',
     live: 'https://vnctechnology.vercel.app/',
     github: 'https://github.com/francovinicius/vnctechnology',
 
@@ -174,7 +174,7 @@ const projects = [
     stack: [
       { name: 'Reactjs' }
     ],
-    image: '/assets/work/dev-apps.png',
+    image: '/assets/work/9.png',
     live: 'https://desenvolvendoapps.vercel.app/',
     github: 'https://vnctechnology.vercel.app/',
 
@@ -188,7 +188,7 @@ const projects = [
     stack: [
       { name: 'Html5' }, { name: 'Css3' }, { name: 'Javascript' },
     ],
-    image: '/assets/work/validacao.png',
+    image: '/assets/work/10.png',
     live: 'https://github.com/francovinicius/validacao-cadastro.',
     github: 'https://github.com/francovinicius/validacao-cadastro.',
 
