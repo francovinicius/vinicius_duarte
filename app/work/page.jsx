@@ -206,7 +206,7 @@ const Work = () => {
 
           {projects.map((project, index) => {
 
-            return <div className='flex flex-col xl:flex-row gap-[40px] items-center'>
+            return <div key={index} className='flex flex-col xl:flex-row gap-[40px] items-center'>
 
               <div className='flex flex-col order-2 xl:order-none mr-5'>
                 <h2 className='text-[36px] font-bold leading-none text-white group-hover:text-accent transition-all duration-500 capitalize'>{project.title}</h2>
