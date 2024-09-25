@@ -27,6 +27,19 @@ const projects = [
   },
 
   {
+    category: 'mobile',
+    title: 'E-personal',
+    description: 'O E-personal é um aplicativo projetado para gerar treinos aleatórios para grupos musculares. Este aplicativo é uma ferramenta útil para entusiastas de fitness que desejam diversificar suas rotinas de exercícios, bem como para professores de educação física habilitados que desejam auxiliar na criação de treinos personalizados para seus alunos.',
+    stack: [
+      { name: 'Firebase' }, { name: 'Kotlin' }
+    ],
+    image: '/assets/work/12.png',
+    live: '',
+    github: '',
+
+  },
+
+  {
     category: 'FullStack',
     title: 'Sistema de Gestão de Advocacia',
     description: 'Este projeto trata-se de um protótipo de sistema de gestão desenvolvido inicialmente com o intuito de consultar processos jurídicos cadastrados na base da empresa, sendo expansível para a criação de serviços e comunicados para os colaboradores. ',
@@ -46,7 +59,7 @@ const projects = [
     stack: [
       { name: 'JavaScript' }, { name: 'ReactJs' }, { name: 'Consumo de API' }
     ],
-    image: '/assets/work/movieland.svg',
+    image: '/assets/work/14.svg',
     live: 'https://github.com/francovinicius/movieland?tab=readme-ov-file',
     github: 'https://github.com/francovinicius/movieland?tab=readme-ov-file',
 
@@ -58,7 +71,7 @@ const projects = [
     stack: [
       { name: 'ReactJS' }, { name: 'Material UI 5' }, { name: 'Consumo de API' }
     ],
-    image: '/assets/work/MediaTube.png',
+    image: '/assets/work/13.png',
     live: 'https://media-tube-sandy.vercel.app/',
     github: 'https://github.com/francovinicius/mediaTube?tab=readme-ov-file',
 
@@ -135,7 +148,7 @@ const projects = [
     stack: [
       { name: 'Dart' }, { name: 'Flutter' }
     ],
-    image: '/assets/work/appcookies.svg',
+    image: '/assets/work/15.png',
     live: 'https://github.com/francovinicius/cookiesUi',
     github: 'https://github.com/francovinicius/cookiesUi',
 
