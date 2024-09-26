@@ -41,6 +41,19 @@ const projects = [
 
   {
     category: 'FullStack',
+    title: 'Sistema de Gestão GEAD',
+    description: 'Este projeto trata-se de um protótipo de sistema de gestão administrativa. O projeto contempla autenticação de login, niveis de acesso, base de informações de patrimônio e abertura de tickets para os setores responsáveis',
+    stack: [
+      {name: 'PHP' }, { name: 'Javascript' }, { name: 'SQL' }, { name: 'Bootstrap' }
+    ],
+    image: '/assets/work/16.png',
+    live: 'https://github.com/francovinicius/sistema-gead',
+    github: 'https://github.com/francovinicius/sistema-gead',
+
+  },
+  
+  {
+    category: 'FullStack',
     title: 'Sistema de Gestão de Advocacia',
     description: 'Este projeto trata-se de um protótipo de sistema de gestão desenvolvido inicialmente com o intuito de consultar processos jurídicos cadastrados na base da empresa, sendo expansível para a criação de serviços e comunicados para os colaboradores. ',
     stack: [
@@ -50,7 +63,7 @@ const projects = [
     live: 'https://github.com/francovinicius/sistema-de-gest-o-advocacia-full',
     github: 'https://github.com/francovinicius/sistema-de-gest-o-advocacia-full',
 
-  },  
+  },
 
   {
     category: 'frontend',
