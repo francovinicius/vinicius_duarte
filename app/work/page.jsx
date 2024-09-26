@@ -233,9 +233,9 @@ const Work = () => {
                 <h2 className='text-[32px] font-bold leading-none text-white group-hover:text-accent transition-all duration-500 capitalize'>{project.title}</h2>
                 <h3 className='text-[14px] font-bold leading-none text-white group-hover:text-accent transition-all duration-500 capitalize mt-5'>{project.category} project</h3>
                 <p className='text-[14px] text-white/60 h-[200px] w-[350px] mt-5 mb-[50px] xl:w-[500px]'>{project.description}</p>
-                <ul className='flex gap-4'>
+                <ul className='flex flex-wrap gap-4'>
                   {project.stack.map((item, index) => {
-                    return <li key={index} className='text-xl text-accent'>
+                    return <li key={index} className='xl:text-xl text-accent'>
                       {item.name}
                       {index !== project.stack.length - 1 && ','}
                     </li>
