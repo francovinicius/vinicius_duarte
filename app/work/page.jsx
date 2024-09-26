@@ -1,10 +1,6 @@
 "use client";
 
-import { animate, motion } from 'framer-motion';
-import React, { useState } from 'react'
-
-import { Swiper, SwiperSlide } from 'swiper/react';
-//import 'swiper.css'
+import { motion } from 'framer-motion';
 
 import { BsArrowUpRight, BsGithub } from 'react-icons/bs'
 
@@ -29,7 +25,7 @@ const projects = [
   {
     category: 'mobile',
     title: 'E-personal',
-    description: 'O E-personal é um aplicativo projetado para gerar treinos aleatórios para grupos musculares. Este aplicativo é uma ferramenta útil para entusiastas de fitness que desejam diversificar suas rotinas de exercícios, bem como para professores de educação física habilitados que desejam auxiliar na criação de treinos personalizados para seus alunos.',
+    description: 'O E-personal é um aplicativo projetado para gerar treinos para grupos musculares. Este aplicativo é uma ferramenta para profissionais de educação física habilitados que desejam auxiliar na criação de treinos personalizados para seus alunos.',
     stack: [
       { name: 'Firebase' }, { name: 'Kotlin' }
     ],
@@ -224,7 +220,6 @@ const projects = [
 ];
 
 const Work = () => {
-  const [project, setProject] = useState(projects[0]);
   return (
     <motion.section className='min-h-[80vh] flex flex-col justify-center py-12 xl:px-0' initial={{ opacity: 0 }} animate={{ opacity: 1 }} >
       <div className="container mx-auto">
@@ -234,10 +229,10 @@ const Work = () => {
 
             return <div key={index} className='flex flex-col xl:flex-row gap-[40px] items-center'>
 
-              <div className='flex flex-col order-2 xl:order-none mr-5'>
-                <h2 className='text-[36px] font-bold leading-none text-white group-hover:text-accent transition-all duration-500 capitalize'>{project.title}</h2>
-                <h3 className='text-[16px] font-bold leading-none text-white group-hover:text-accent transition-all duration-500 capitalize mt-5'>{project.category} project</h3>
-                <p className='text-white/60 h-[200px] mt-5 mb-[50px] xl:w-[500px]'>{project.description}</p>
+              <div className='flex flex-wrap flex-col order-2 xl:order-none'>
+                <h2 className='text-[32px] font-bold leading-none text-white group-hover:text-accent transition-all duration-500 capitalize'>{project.title}</h2>
+                <h3 className='text-[14px] font-bold leading-none text-white group-hover:text-accent transition-all duration-500 capitalize mt-5'>{project.category} project</h3>
+                <p className='text-[14px] text-white/60 h-[200px] w-[350px] mt-5 mb-[50px] xl:w-[500px]'>{project.description}</p>
                 <ul className='flex gap-4'>
                   {project.stack.map((item, index) => {
                     return <li key={index} className='text-xl text-accent'>
@@ -277,7 +272,7 @@ const Work = () => {
 
               </div>
               <div className='order-1 xl:order-none xl:max-w-[500px]'>
-                <img className='' src={project.image} alt="" />
+                <img className='w-[300px] h-[300px] xl:w-[500px] xl:h-[500px] xl:mt-[-100px]' src={project.image} alt="" />
               </div>
 
             </div>
