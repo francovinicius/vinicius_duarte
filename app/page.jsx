@@ -4,6 +4,8 @@ import React from 'react'
 import SocialIcons from "@/components/SocialIcons";
 import Photo from "@/components/Photo";
 
+import { FaGithub, FaLinkedin, FaWhatsapp } from 'react-icons/fa'
+
 const Home = () => {
   return (
     <section className="h-full">
